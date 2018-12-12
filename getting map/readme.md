@@ -2,7 +2,7 @@
 in this section we will learn how to finde obstacles into any picture
 
 # Pipelines:
-This the way that we achieve our aim. 
+This is the way that we achieve our aim. 
 1. GaussianBlur
 2. Get the range of values in HSV
  for the obstacles

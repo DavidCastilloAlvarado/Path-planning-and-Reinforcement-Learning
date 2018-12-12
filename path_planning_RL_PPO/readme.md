@@ -2,7 +2,7 @@
 We worked using the reference from OpenIA and https://github.com/MorvanZhou
 
 # Reinforcement Learning
-![alt text](https://github.com/DavidCastilloAlvarado/path_planning_self_driving/raw/master/images/RL.png)
+![alt text](https://github.com/DavidCastilloAlvarado/path_planning_self_driving/path_planning_RL_PPO/raw/master/images/RL.png)
 
 
 # Proximal Policy Optimization

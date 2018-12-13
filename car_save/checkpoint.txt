@@ -1,0 +1,6 @@
+model_checkpoint_path: "auto_car_final_1544563909.ckpt"
+all_model_checkpoint_paths: "auto_car_final_1544563887.ckpt"
+all_model_checkpoint_paths: "auto_car_final_1544563909.ckpt"
+all_model_checkpoint_paths: "auto_car_final_1544563931.ckpt"
+all_model_checkpoint_paths: "auto_car_final_1544563995.ckpt"
+all_model_checkpoint_paths: "auto_car_final_1544564206.ckpt"

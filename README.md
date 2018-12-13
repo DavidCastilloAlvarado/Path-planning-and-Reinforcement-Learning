@@ -20,7 +20,7 @@ A Markov decision process is a 4-tuple {S,A Pa,Ra}
 1. S is a finite set of states, [values, sensor-2, sensor-1, sensor0, sensor1, sensor2]
 2. A is a finite set of actions[Steering angle between -6|6 degrees]
 3. Pa is the probability that action a in state s at time "t" t will lead to state s' at time t+1
-4. Ra is the immediate reward (or expected immediate reward) received after transitioning from state {\displaystyle s} s to state s', due to action  a
+4. Ra is the immediate reward (or expected immediate reward) received after transitioning from state s to state s', due to action  a
 
                Ra = 0.4 + (0.2 if s[0]<1 else 0.001) + (0.4 if m <1 else 0.001) or -1 if collides
                s[0] = global approach

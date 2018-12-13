@@ -17,10 +17,11 @@ Reinforcement learning is considered as one of three machine learning paradigms,
 
 ## Modeled as a Markov decision process:
 A Markov decision process is a 4-tuple {S,A Pa,Ra}
-1. S is a finite set of states, 
-2. A is a finite set of actions
+1. S is a finite set of states, [values, sensor-2, sensor-1, sensor0, sensor1, sensor2]
+2. A is a finite set of actions[Steering angle between -6|6 degrees]
 3. Pa is the probability that action a in state s at time "t" t will lead to state s' at time t+1
 4. Ra is the immediate reward (or expected immediate reward) received after transitioning from state {\displaystyle s} s to state s', due to action  a
+![alt text](https://github.com/DavidCastilloAlvarado/path_planning_self_driving/raw/master/path_planning_RL_PPO/images/robot.jpg)
 
 # Proximal Policy Optimization
 We use the following paper, about proximal policy optimization, the particular sub-method aplied in this proyect was the CLIP method whit epsilon = 0.2 

@@ -28,7 +28,8 @@ A Markov decision process is a 4-tuple {S,A Pa,Ra}
 
 ![alt text](https://github.com/DavidCastilloAlvarado/path_planning_self_driving/raw/master/path_planning_RL_PPO/images/robot.jpg)
 
-# Proximal Policy Optimization
+# Proximal Policy Optimization (PPO)
+The Policy was optimizer using a method call PPO (2017) a new family of policy gradient methods for reinforcement learning.
 We use the following paper, about proximal policy optimization, the particular sub-method aplied in this proyect was the CLIP method whit epsilon = 0.2 
 we choose a value for gamma for the discounter equal to 0.9 
 https://arxiv.org/pdf/1707.06347.pdf

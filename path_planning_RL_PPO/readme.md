@@ -19,6 +19,7 @@ https://arxiv.org/pdf/1707.06347.pdf
 They was built usign tensorflow-gpu 1.6, in python3.
 The NN was improved using batch normalization in from the input of every layer. 
 ![alt text](https://github.com/DavidCastilloAlvarado/path_planning_self_driving/raw/master/path_planning_RL_PPO/images/PPO.png)
+
 ACTOR:
 1.batch_normalization
 2. dense(200), Activation function=Relú
@@ -38,6 +39,7 @@ CRITIC:
 ![alt text](https://github.com/DavidCastilloAlvarado/path_planning_self_driving/raw/master/path_planning_RL_PPO/images/critic.png)
 
 # Reference
+
 [1.] OpenIA 
 [2.] https://github.com/MorvanZhou
 

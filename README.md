@@ -17,7 +17,7 @@ Reinforcement learning is considered as one of three machine learning paradigms,
 
 ## Modeled as a Markov decision process:
 A Markov decision process is a 4-tuple {S,A Pa,Ra}
-1. S is a finite set of states, [values, sensor-2, sensor-1, sensor0, sensor1, sensor2]
+1. S is a finite set of states, [sensor-2, sensor-1, sensor0, sensor1, sensor2, values]
 2. A is a finite set of actions[Steering angle between -6|6 degrees]
 3. Pa is the probability that action a in state s at time "t" t will lead to state s' at time t+1
 4. Ra is the immediate reward (or expected immediate reward) received after transitioning from state s to state s', due to action  a

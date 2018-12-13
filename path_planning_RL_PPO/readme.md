@@ -21,7 +21,7 @@ The NN was improved using batch normalization in from the input of every layer.
 ![alt text](https://github.com/DavidCastilloAlvarado/path_planning_self_driving/raw/master/path_planning_RL_PPO/images/PPO.png)
 
 ACTOR:
-1.batch_normalization
+1. batch_normalization
 2. dense(200), Activation function=Relú
 3. batch_normalization
 4. dense(100), Activation function=Relú
@@ -40,6 +40,7 @@ CRITIC:
 
 # Reference
 
-[1.] OpenIA 
+[1.] OpenIA    
+
 [2.] https://github.com/MorvanZhou
 

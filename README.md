@@ -44,9 +44,9 @@ ACTOR:
 2. dense(200), Activation function=Relú
 3. batch_normalization
 4. dense(100), Activation function=Relú
-5. batch_normalization
-5.1. dense(1), Activation function=tanh
-5.2. dense(1), Activation function=softplus
+5. batch_normalization 
+5.1. dense(1), Activation function=tanh 
+5.2. dense(1), Activation function=softplus 
 6. tf.distributions.Norma
 ![alt text](https://github.com/DavidCastilloAlvarado/path_planning_self_driving/raw/master/path_planning_RL_PPO/images/actor.png)
 

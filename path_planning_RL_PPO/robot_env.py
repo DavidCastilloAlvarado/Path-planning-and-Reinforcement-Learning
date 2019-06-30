@@ -53,6 +53,7 @@ class CarDCENV(object):
 			#r = 1 - (1+s[0])*pow(dd_n/self.last_dist,4)*0.8
 			r = 0.4 + (0.2 if s[0]<1 else 0.001) + (0.4 if dd_n/self.last_dist<1 else 0.001)
 			self.last_r = r
+			self.last_s = s
 			if dd_n/self.last_dist<1:
 				self.last_dist = dd_n
 		#elif dd_n/self.last_dist<1:
